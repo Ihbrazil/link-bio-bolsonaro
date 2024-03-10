@@ -220,8 +220,22 @@
 
 @media(max-width: 540px)
 {
+  .secao-banner video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
  /* Estilo da imagem de perfil e do titulo */
   .imgPerfil-titulo {
+  /* display: none;*/
+  }
+  .imgPerfil {
+    /*display: flex;*/
+  }
+  .imgPerfil-titulo h1 {
     display: none;
   }
 }
