@@ -199,3 +199,29 @@
     font-size: 18px;
     color: #fff;
   }
+
+  /* -----------estilo media queries--------------- */
+
+@media(max-width: 1100px)
+{
+  /* Estilo da tabela */
+  .secao-tabela {
+    display: inline-table;
+  }
+}
+
+@media(max-width: 768px)
+{
+    /* Estilo da tabela */
+    .secao-tabela {
+      display: none;
+    } 
+}
+
+@media(max-width: 540px)
+{
+ /* Estilo da imagem de perfil e do titulo */
+  .imgPerfil-titulo {
+    display: none;
+  }
+}
